@@ -10,18 +10,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: QpedNxwYVILiGlPIOEy8J+8/GESHKRP282ufJcikePpMzyMgKxPoyumINgx6oZKRmCJwlFuLFvBKge0QXQN7haNg+797MnYbhVEWASYWfUkgkaaB9nrLlQidM0H90S0TNNsJoRj2aJNpnSlE2vTJg4+9UEQGgLYK6toZclQj1OD0T7qTo2paQD0NgBGQE/MnzEUkaOrj8LNZnWy19EnZxy9ztz/LrOVpMqfD+zBCKWCLwtiEgz3oXUwpLOZHUz6Nr/koi1+4kgGw6DoS/Wc0qsTQ6mwBdaAbtq7rfeox+waSZ0QvTMAdNfBz8Ze8cVdjnvTQEuEykcJjDJfunL3gboIOInVoIpWwz+ACuPJeBUoOKJY/B/nrrd6KK0TA21Gp3yxoAtmWojLnzmKJCRE5Er/18wuiuvYZvIO+4yU8iVfcFGVc3XCTI/+Y7YSGFjrvGn9DHTAvqbJsF5XESca5SvWGvZbuHzt7zBbEX1X0zHcrktkwff1XZQzG9mlNyon5dOxDiR38DarC9F1oqHTr0TyCmy9jPnEP7bgwtpYQRV8hhfrOPwkrFx/7hz9UXJ79l8XQe2MyZE1OCAccF4lKChmqX1JSoAk0rKUmm3imUQaw1U9Y8r+vqtnXn3P2U2hFEyVMTTN7tKlsu8ITgCOGVy42sj6u8mnZinOzow0UQMA=
-  app: desolate-stream-74104
+    secure: kmp5rPbrRdOXhdsn3bqf1NDriNTmgKtlSYudE76YRXwZNRqGJUDBz9LUOY/tIJ/YMt0D3GmZRCFtZDPLwVACslFqmklTCytaDLXUjin/IIahHigVtZuBe1sfYSUrrH1jqSwQ7rSOU1M4FblM73fCsJHIZtCoiXmn4jzwOFNHHmjS0AXWEVHl8ca7C2/4WJjzTeWQp+zvLZ9kXCqIph1WLzPD18R2+ieQgOkub4OfveL8omhxpvfrgvyqJX06gskHs/8gETqbfMap7Bgevdu678oncUI4/OtYiYchP2S+tajbuutNgVDg+11nYOuCm+kABwUU5D8x7Uxc3ejOivE1DlG8tevZMu0OFNf10TV3d8gRyPdEH6U/y5R8Ubz58fZEY9VgDtT19PuOyif2CdDe3Wy4zy97zVNpaq8uAy7LnBbGQzq+mEWmq8jJ8JPwQh13giOl4t0k1hTBxCxkSp5PAUw+aQmRPpnn0qTk4gTX8zfcj97aETjHzvHQ9/rnaFu16e8m38GidDLDJHdPDbLKYjlLQIVuSZr9YIylchFL/RBHt8DR0so093fQ/bHxTc0VkW76UcCJvzJ7HZf/qZs8ujjXZ3HEkTjxLwiFeaIs5KDBB0L4UcoV3Pl2AquICoUih6xS/BRiJBpwDaYH4RhnQ4bR+OKKZa6GZywela/SJhs=
+  app: stamates-flasktaskr
   on:
     repo: Stamates/flasktaskr_project
-
-# original deploy from github
-#deploy:
-#  provider: heroku
-#  api_key:
-#    secure: XEtRjqqP6ZgiZKDi/OjSyMhJIPVPUzmX+5899LXfm2eyMtItYqFouCtBAOmBU5bWnZiwgXdB9l9ra2yiC+321TET1WVJe1WHDTFW1rzIpWS7t/ZIJYPhmwcYxa02kzLQZsrDZH/BW/cUuoHlOhmGSpuqO6SO1h1XnzwqHVe68vw=
-#  app: flasktaskr
-#  on:
-#    branch: master
-#    python: '3.4'
-#    repo: realpython/flasktaskr_project
