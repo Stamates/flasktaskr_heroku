@@ -9,18 +9,18 @@ from wtforms.validators import DataRequired, Length, EqualTo, Email
 class RegisterForm(Form):
     name = StringField(
         'Username',
-        validators=[DataRequired(), Length(min=6, max=25)]
+        validators=[DataRequired(), Length(min=6, max=25, message='Min length of 6 chars, max of 25')]
     )
     email = StringField(
         'Email',
-        validators=[DataRequired(), Email(), Length(min=6, max=40)]
+        validators=[DataRequired(), Email(), Length(min=6, max=40, message='Min length of 6 chars, max of 40')]
     )
     password = PasswordField(
         'Password',
-        validators=[DataRequired(), Length(min=6, max=40)])
+        validators=[DataRequired(), Length(min=6, max=40, message='Min length of 6 chars, max of 40')])
     confirm = PasswordField(
         'Repeat Password',
-        validators=[DataRequired(), EqualTo('password')]
+        validators=[DataRequired(), EqualTo('password', message='Passwords must match')]
     )
 
 
