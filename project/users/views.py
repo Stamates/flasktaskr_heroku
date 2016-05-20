@@ -37,7 +37,6 @@ def login_required(test):
             return redirect(url_for('users.login'))
     return wrap
 
-
 ################
 #### routes ####
 ################
