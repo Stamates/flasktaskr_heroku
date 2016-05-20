@@ -15,4 +15,4 @@ deploy:
   on:
     branch: master
     python: '3.4'
-    repo: Stamates/flasktaskr_project
+    repo: Stamates/flasktaskr_heroku
